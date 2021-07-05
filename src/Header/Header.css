@@ -1,4 +1,29 @@
 .header-container {
+  height: 40vh;
+  background-color: rgb(228, 155, 72);
+  color: white;
+}
+
+.logo {
+  padding: 1.5rem;
+  max-width: auto;
+}
+
+.button-container {
   text-align: center;
-  height: 30vh;
+}
+
+.button-container h4 {
+  margin: 0;
+}
+
+.btn-primary {
+  color: white;
+  display: inline-block;
+  background-color: #c5722f; /* Green */
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 12px 24px;
 }
