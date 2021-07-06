@@ -1,0 +1,12 @@
+.descriptions-container {
+  text-align: center;
+  height: 133vh;
+  width: 75%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.descriptions-container > div {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
