@@ -1,4 +1,5 @@
 import "./Header.css";
+import Nav from "../Nav/Nav";
 import jouleLogo from "../images/JOULE_LOGO_HEADER.png";
 
 const Header = () => {
@@ -6,6 +7,9 @@ const Header = () => {
     <div className="header-container">
       <div className="image-container">
         <img src={jouleLogo} alt="Joule Logo" className="logo" />
+      </div>
+      <div className="nav-container">
+        <Nav />
       </div>
       <div className="button-container">
         <h4>Find your fit!</h4>
