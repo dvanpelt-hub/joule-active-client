@@ -1,0 +1,13 @@
+.product-container {
+  text-align: center;
+  height: 40vh;
+}
+
+.product-container img {
+  width: 100%;
+  margin: 0;
+}
+
+.product-container img:hover {
+  cursor: pointer;
+}
