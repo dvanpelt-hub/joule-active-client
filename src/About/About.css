@@ -1,0 +1,18 @@
+.about-container {
+  text-align: center;
+  height: 100vh;
+}
+
+.about-container img {
+  width: 100%;
+  height: auto;
+}
+
+.about-text-content {
+  width: 75%;
+  margin: auto;
+}
+
+.about-text-content p {
+  text-align: left;
+}
