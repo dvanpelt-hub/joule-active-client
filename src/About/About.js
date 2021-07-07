@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       <img src={aboutUs} alt="Man working out while wearing Joule products" />
       <div className="about-text-content">
-        <h2>Who we are</h2>
+        <h2>WHO WE ARE</h2>
         <span>--- * * * ---</span>
         <p>
           We're new, but we've got big ideas. As a gym/fitness enthusiasts,

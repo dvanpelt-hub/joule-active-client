@@ -1,6 +1,7 @@
 .about-container {
   text-align: center;
   height: 115vh;
+  color: rgb(48, 48, 48);
 }
 
 .about-container img {
@@ -15,4 +16,5 @@
 
 .about-text-content p {
   text-align: left;
+  color: rgb(153, 153, 153);
 }

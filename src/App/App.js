@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Descriptions from "../Descriptions/Descriptions";
 import About from "../About/About";
 import ProductLineup from "../ProductLineup/ProductLineup";
+import Contact from "../Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Descriptions />
       <About />
       <ProductLineup />
+      <Contact />
     </div>
   );
 }
