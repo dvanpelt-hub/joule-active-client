@@ -1,4 +1,5 @@
 import "./Nav.css";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   return (
@@ -12,14 +13,14 @@ const Nav = () => {
           <div>
             <ul>
               <li>
-                <a href="https://www.amazon.com/s?me=A366LPOP2A82ZM&marketplaceID=ATVPDKIKX0DER">
+                <Link to="header-container" smooth={true} duration={1200}>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.amazon.com/s?me=A366LPOP2A82ZM&marketplaceID=ATVPDKIKX0DER">
+                <Link to="about-container" smooth={true} duration={1200}>
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="https://www.amazon.com/s?me=A366LPOP2A82ZM&marketplaceID=ATVPDKIKX0DER">
@@ -27,9 +28,9 @@ const Nav = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.amazon.com/s?me=A366LPOP2A82ZM&marketplaceID=ATVPDKIKX0DER">
+                <Link to="contact-container" smooth={true} duration={1200}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

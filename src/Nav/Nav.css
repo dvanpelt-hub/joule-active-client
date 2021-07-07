@@ -8,6 +8,11 @@ ul {
   padding: 0;
 }
 
+.menu li:hover {
+  cursor: pointer;
+  background-color: rgba(238, 126, 92, 0.7);
+}
+
 .nav-wrap {
   position: fixed;
   top: 0;
