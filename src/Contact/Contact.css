@@ -1,8 +1,13 @@
 .contact-container {
   text-align: center;
-  height: 65vh;
+  height: 80vh;
   background-color: rgb(59, 59, 59);
   color: white;
+}
+
+.contact-container h2 {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #contact-form {
@@ -16,6 +21,6 @@ input[type="email"] {
 }
 
 .form-group {
-  margin-bottom: 3rem;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 2rem;
 }
