@@ -1,15 +1,25 @@
 .header-container {
   height: 40vh;
-  background-image: url("../images/bg_home.jpg");
-  background-position: center;
+  /* background-image: url("../images/bg_home.jpg"); */
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: white; */
+}
+
+#jouleVideo {
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: relative;
 }
 
 .logo {
-  padding: 1.5rem;
-  max-width: auto;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
 }
 
 .button-container {

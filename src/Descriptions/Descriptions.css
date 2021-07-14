@@ -6,7 +6,7 @@
   justify-content: space-around;
 }
 
-.descriptions-container > div {
-  margin-top: 200px;
-  margin-bottom: 100px;
+.descriptions-container div {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }

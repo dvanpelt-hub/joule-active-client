@@ -1,5 +1,5 @@
 import React from "react";
-import kneeSleeve from "../images/slide2.jpg";
+import kneeSleeve from "../images/productLineup.jpeg";
 import "./ProductLineup.css";
 
 const ProductLineup = () => {
