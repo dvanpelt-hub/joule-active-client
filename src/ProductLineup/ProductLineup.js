@@ -5,7 +5,7 @@ import "./ProductLineup.css";
 const ProductLineup = () => {
   return (
     <div className="product-container">
-      <h2>Our Product</h2>
+      <h2>Our Products</h2>
       <a href="https://www.amazon.com/s?me=A366LPOP2A82ZM&marketplaceID=ATVPDKIKX0DER">
         <img
           src={kneeSleeve}

@@ -6,12 +6,12 @@
 }
 
 .contact-container h2 {
-  padding-top: 3rem;
-  margin-bottom: 3rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #contact-form {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 input[type="text"],
@@ -22,5 +22,5 @@ input[type="email"] {
 
 .form-group {
   margin-top: 10px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
