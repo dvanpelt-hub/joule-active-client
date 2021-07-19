@@ -12,7 +12,25 @@
 }
 
 @media only screen and (min-width: 400px) {
+  /* Larger mobile devices */
   .descriptions-container {
     height: 140vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* IPAD screen size */
+  .descriptions-container {
+    height: 130vh;
+  }
+  .descriptions-container div {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .descriptions-container h3 {
+    font-size: 26px;
+  }
+  .descriptions-container p {
+    font-size: 20px;
   }
 }

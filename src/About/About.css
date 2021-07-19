@@ -20,7 +20,25 @@
 }
 
 @media only screen and (min-width: 400px) {
+  /* Larger mobile devices */
   .about-container {
     height: 98vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* IPAD screen size */
+  .about-container {
+    height: 110vh;
+  }
+  .about-container h2 {
+    font-size: 30px;
+  }
+  .about-container p {
+    font-size: 22px;
+  }
+  .about-text-content img {
+    width: 60%;
+    height: auto;
   }
 }
