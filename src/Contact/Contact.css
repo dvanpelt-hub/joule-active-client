@@ -26,7 +26,25 @@ input[type="email"] {
 }
 
 @media only screen and (min-width: 400px) {
+  /* Larger mobile devices */
   .contact-container {
     height: 65vh;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  /* IPAD screen size */
+  .contact-container {
+    height: 52vh;
+  }
+  .contact-container h2 {
+    font-size: 30px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 40%;
+  }
+  .contact-container label {
+    font-size: 20px;
   }
 }
