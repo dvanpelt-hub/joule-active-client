@@ -40,8 +40,6 @@
 
 .button-container {
   text-align: center;
-  height: 20%;
-  width: auto;
 }
 
 .button-container h3 {
@@ -60,4 +58,12 @@
   border: none;
   padding: 12px 24px;
   margin: 10px;
+}
+
+@media only screen and (min-width: 400px) {
+  .button-container h3 {
+    margin: 0;
+    padding: 0;
+    padding-top: 300px;
+  }
 }
