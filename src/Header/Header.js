@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-scroll";
 import Nav from "../Nav/Nav";
 import jouleLogo from "../images/JOULE_LOGO_HEADER.png";
 import jouleVideo from "../images/jouleVideo.mp4";
@@ -19,7 +20,11 @@ const Header = () => {
         </div>
         <div className="button-container">
           <h3>Find your fit!</h3>
-          <button className="btn-primary">Shop Knee Sleeves</button>
+          <button className="btn-primary">
+            <Link to="product-container" smooth={true} duration={1200}>
+              Shop Knee Sleeves
+            </Link>
+          </button>
         </div>
       </div>
     </div>
