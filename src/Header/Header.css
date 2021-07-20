@@ -16,7 +16,7 @@
   height: 50vh;
   width: 100vw;
   position: absolute;
-  background: linear-gradient(rgba(241, 135, 64, 0.699), rgba(243, 137, 95, 0));
+  background: linear-gradient(rgba(238, 81, 41, 0.899), rgba(243, 117, 95, 0));
   z-index: 1;
 }
 
@@ -75,5 +75,33 @@
   }
   .logo-container {
     margin: 28px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  /* Smaller desktop */
+  .header-container {
+    height: 50vh;
+  }
+  .image-container {
+    display: flex;
+  }
+  .button-container {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  .button-container h3 {
+    padding: 0;
+    margin-bottom: 0.8rem;
+    color: white;
+    font-size: 45px;
+  }
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px 18px;
+    margin: 10px;
   }
 }

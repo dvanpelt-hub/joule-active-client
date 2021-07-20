@@ -6,7 +6,7 @@
   justify-content: space-around;
 }
 
-.descriptions-container div {
+.icon-text-container {
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -23,7 +23,7 @@
   .descriptions-container {
     height: 130vh;
   }
-  .descriptions-container div {
+  .icon-text-container {
     margin-top: 150px;
     margin-bottom: 50px;
   }
@@ -31,6 +31,30 @@
     font-size: 26px;
   }
   .descriptions-container p {
+    color: rgb(153, 153, 153);
     font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  /* Smaller desktop */
+  .descriptions-container {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+  }
+  .icon-text-container {
+    margin-top: 250px;
+    width: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .descriptions-container h3 {
+    font-size: 20px;
+  }
+  .descriptions-container p {
+    font-size: 16px;
   }
 }

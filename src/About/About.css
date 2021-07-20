@@ -42,3 +42,23 @@
     height: auto;
   }
 }
+
+@media only screen and (min-width: 960px) {
+  /* Smaller desktop */
+  .about-container {
+    display: flex;
+    height: 80vh;
+  }
+  #main-image {
+    width: auto;
+    height: 70vh;
+  }
+  .about-text-content {
+    width: 35%;
+    margin-top: 6.5rem;
+  }
+  .about-text-content p {
+    font-size: 16px;
+    line-height: 2;
+  }
+}

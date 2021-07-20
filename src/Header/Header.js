@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="button-container">
           <h3>Find your fit!</h3>
-          <button className="btn-primary">Shop Knee Sleves</button>
+          <button className="btn-primary">Shop Knee Sleeves</button>
         </div>
       </div>
     </div>

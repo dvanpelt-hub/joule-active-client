@@ -48,3 +48,15 @@ input[type="email"] {
     font-size: 20px;
   }
 }
+
+@media only screen and (min-width: 960px) {
+  /* Smaller desktop */
+  .contact-container {
+    height: 53vh;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 40%;
+    padding: 8px;
+  }
+}
