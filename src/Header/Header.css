@@ -105,3 +105,10 @@
     margin: 10px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  /*Medium desktop*/
+  .header-container {
+    height: 68vh;
+  }
+}
