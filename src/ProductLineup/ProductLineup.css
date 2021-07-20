@@ -3,12 +3,12 @@
   height: 50vh;
 }
 
-.product-container img {
+#kneeSleveImg {
   height: auto;
   width: 100%;
 }
 
-.product-container img:hover {
+#kneeSleveImg:hover {
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@
   .product-container h2 {
     font-size: 30px;
   }
-  .product-container img {
+  #kneeSleveImg {
     width: 75%;
     height: auto;
   }
@@ -38,7 +38,15 @@
   .product-container h2 {
     margin-top: 12%;
   }
-  .product-container img {
+  #kneeSleveImg {
     margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  /*Full size desktop*/
+  #kneeSleveImg {
+    width: 50%;
+    height: auto;
   }
 }

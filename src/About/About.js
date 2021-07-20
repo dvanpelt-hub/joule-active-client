@@ -33,7 +33,7 @@ const About = () => {
           affordable, quality, and just fresh looking gear that lets you focus
           your energy on working out rather than everything else.
         </p>
-        <img src={signatureSS} alt="Company signature" />
+        <img src={signatureSS} alt="Company signature" id="pri-signature" />
       </div>
     </div>
   );

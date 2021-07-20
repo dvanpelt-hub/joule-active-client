@@ -10,6 +10,7 @@ const ProductLineup = () => {
         <img
           src={kneeSleeve}
           alt="Athlete sitting down and wearing Joule knee sleeve product"
+          id="kneeSleveImg"
         />
       </a>
     </div>

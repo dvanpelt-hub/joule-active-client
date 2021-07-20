@@ -112,3 +112,10 @@
     height: 68vh;
   }
 }
+
+@media only screen and (min-width: 1400px) {
+  /*Full size desktop*/
+  .header-container {
+    height: 90vh;
+  }
+}
