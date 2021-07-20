@@ -6,7 +6,7 @@ import atomIcon from "../images/Icon/1x/iconCompleteColorInnovation.png";
 const Descriptions = () => {
   return (
     <div className="descriptions-container">
-      <div>
+      <div className="icon-text-container">
         <img src={pigIcon} alt="Piggy bank icon" />
         <h3>Don't break the bank</h3>
         <p>
@@ -14,12 +14,12 @@ const Descriptions = () => {
           focus on what matters.
         </p>
       </div>
-      <div>
+      <div className="icon-text-container">
         <img src={gearIcon} alt="Dumbbell icon" />
         <h3>Quality gear</h3>
         <p>Made with durable materials and ready for wear and tear.</p>
       </div>
-      <div>
+      <div className="icon-text-container">
         <img src={atomIcon} alt="Dumbbell icon" />
         <h3>Innovative designs</h3>
         <p>Offering the latest and greatest in activewewar and fitness gear.</p>
