@@ -124,4 +124,7 @@
   .header-container {
     height: 90vh;
   }
+  .btn-primary {
+    padding: 15px;
+  }
 }
