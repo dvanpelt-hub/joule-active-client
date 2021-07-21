@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 
-const DB_URL = process.env.REACT_APP_DB_URL;
+const DB_URL = process.env.REACT_APP_DB_URL2;
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
