@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 
-const DB_URL = process.env.REACT_APP_DB_URL2;
+const DB_URL = process.env.REACT_APP_DB_URL1;
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
     const postContactData = async () => {
       try {
-        const url = DB_URL;
+        const url = `${DB_URL}api/v1/mailingList`;
         const options = {
           method: "POST",
           mode: "cors",
