@@ -41,6 +41,7 @@ const Contact = () => {
           })
           .then((responseJson) => {
             alert("Thank you for reaching out!");
+            return responseJson;
             // resetForm();
           });
       } catch (err) {
