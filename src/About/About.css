@@ -23,6 +23,10 @@
   color: rgb(153, 153, 153);
 }
 
+.about-text-content img {
+  width: 75%;
+}
+
 @media only screen and (min-width: 400px) {
   /* Larger mobile devices */
   .about-container {
