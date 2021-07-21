@@ -19,7 +19,7 @@ const Header = () => {
           <Nav />
         </div>
         <div className="button-container">
-          <h3>Find your fit!</h3>
+          <h3>GET WORK DONE!</h3>
           <button className="btn-primary">
             <Link to="product-container" smooth={true} duration={1200}>
               Shop Knee Sleeves
