@@ -1,11 +1,21 @@
 .product-container {
   text-align: center;
   height: 50vh;
+  padding-top: 30px;
+  background-image: url("../images/bg_home.jpg");
+  min-height: 400px;
+  font-size: 22px;
+  color: white;
+  /* Parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #kneeSleveImg {
   height: auto;
-  width: 100%;
+  width: 60%;
 }
 
 #kneeSleveImg:hover {
@@ -37,9 +47,21 @@
   }
   .product-container h2 {
     margin-top: 12%;
+    font-size: 50px;
   }
   #kneeSleveImg {
     margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  /*Full size desktop*/
+  #kneeSleveImg {
+    width: 60%;
+    height: auto;
+  }
+  .product-container {
+    height: 120vh;
   }
 }
 
@@ -48,5 +70,8 @@
   #kneeSleveImg {
     width: 50%;
     height: auto;
+  }
+  .product-container h2 {
+    font-size: 60px;
   }
 }

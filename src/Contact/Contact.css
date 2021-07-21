@@ -1,6 +1,6 @@
 .contact-container {
   text-align: center;
-  height: 80vh;
+  height: 45vh;
   background-color: rgb(59, 59, 59);
   color: white;
 }
@@ -8,10 +8,7 @@
 .contact-container h2 {
   padding-top: 2rem;
   margin-bottom: 2rem;
-}
-
-#contact-form {
-  padding-top: 1rem;
+  margin-top: 0;
 }
 
 input[type="text"],
@@ -32,19 +29,24 @@ input[type="email"] {
 
 .fb-link-container a:hover {
   cursor: pointer;
+  color: rgb(255, 81, 0);
+}
+
+.fb-icon-container {
+  padding: 10px;
 }
 
 @media only screen and (min-width: 400px) {
   /* Larger mobile devices */
   .contact-container {
-    height: 65vh;
+    height: 32vh;
   }
 }
 
 @media only screen and (device-width: 768px) {
   /* IPAD screen size */
   .contact-container {
-    height: 52vh;
+    height: 28vh;
   }
   .contact-container h2 {
     font-size: 30px;
@@ -56,16 +58,39 @@ input[type="email"] {
   .contact-container label {
     font-size: 20px;
   }
+  .contact-container h2 {
+    padding-top: 3.5rem;
+  }
 }
 
 @media only screen and (min-width: 960px) {
   /* Smaller desktop */
   .contact-container {
-    height: 53vh;
+    height: 30vh;
   }
   input[type="text"],
   input[type="email"] {
     width: 40%;
     padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  /*Full size desktop*/
+  .contact-container {
+    height: 50vh;
+  }
+
+  .email-container {
+    padding-top: 20px;
+  }
+
+  .contact-container h2 {
+    padding-top: 5.5%;
+    font-size: 50px;
+  }
+  .email-container p,
+  a {
+    font-size: 24px;
   }
 }
