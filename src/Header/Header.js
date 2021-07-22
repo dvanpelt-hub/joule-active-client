@@ -1,6 +1,5 @@
 import "./Header.css";
 import { Link } from "react-scroll";
-import Nav from "../Nav/Nav";
 import jouleLogo from "../images/JOULE_LOGO_HEADER.png";
 import jouleVideo from "../images/jouleVideo.mp4";
 
@@ -14,9 +13,6 @@ const Header = () => {
         </video>
         <div className="logo-container">
           <img src={jouleLogo} alt="Joule Logo" className="logo" />
-        </div>
-        <div className="nav-container">
-          <Nav />
         </div>
         <div className="button-container">
           <h3>GET WORK DONE!</h3>
