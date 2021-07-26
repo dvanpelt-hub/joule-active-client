@@ -25,7 +25,7 @@ const About = () => {
       />
       <div className="about-text-content">
         <h2>WHO WE ARE</h2>
-        <span>--- * * * ---</span>
+        <hr />
         <p>
           We're new, but we've got big ideas. As a gym/fitness enthusiasts,
           we've often found it difficult to find affordable products that

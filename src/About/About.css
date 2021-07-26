@@ -1,10 +1,11 @@
 .about-container {
   text-align: center;
-  height: 115vh;
+  height: 140vh;
   color: rgb(48, 48, 48);
 }
 
 .about-container h2 {
+  margin-top: 20%;
   color: rgb(77, 77, 77);
 }
 
@@ -27,20 +28,36 @@
   width: 75%;
 }
 
+.about-text-content hr {
+  width: 40%;
+  border-top: 1px solid rgba(128, 128, 128, 0.342);
+}
+
 @media only screen and (min-width: 400px) {
   /* Larger mobile devices */
   .about-container {
-    height: 98vh;
+    height: 120vh;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  /* Larger mobile devices */
+  .about-container {
+    height: 150vh;
+  }
+  #pri-signature {
+    width: 50%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* IPAD screen size */
   .about-container {
-    height: 110vh;
+    height: 140vh;
   }
   .about-container h2 {
     font-size: 30px;
+    margin-top: 10%;
   }
   .about-container p {
     font-size: 22px;
@@ -48,6 +65,17 @@
   #pri-signature {
     width: 60%;
     height: auto;
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  /* IPAD screen size */
+  .about-container {
+    height: 180vh;
+  }
+
+  #pri-signature {
+    width: 40%;
   }
 }
 
@@ -68,6 +96,9 @@
   .about-text-content p {
     font-size: 16px;
     line-height: 2;
+  }
+  #pri-signature {
+    width: 60%;
   }
 }
 
