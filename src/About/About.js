@@ -1,26 +1,26 @@
 import "./About.css";
-import React, { useState, useEffect } from "react";
-import aboutUs from "../images/aboutus.jpg";
+import React from "react";
+// import aboutUs from "../images/aboutus.jpg";
 import aboutUs2 from "../images/aboutus2.jpg";
 import signatureSS from "../images/SSSIG-1.png";
 
 const About = () => {
-  const [displayImage, setDisplayImage] = useState("");
+  // const [displayImage, setDisplayImage] = useState("");
 
   // May come back to this to find a better way of handling dynamic image rendering /
-  useEffect(() => {
-    if (window.innerWidth < 960) {
-      setDisplayImage(aboutUs);
-    } else {
-      setDisplayImage(aboutUs2);
-    }
-  }, [setDisplayImage]);
+  // useEffect(() => {
+  //   if (window.innerWidth < 960) {
+  //     setDisplayImage(aboutUs);
+  //   } else {
+  //     setDisplayImage(aboutUs2);
+  //   }
+  // }, [setDisplayImage]);
 
   return (
     <div className="about-container">
       <img
         id="main-image"
-        src={displayImage}
+        src={aboutUs2}
         alt="Man working out while wearing Joule products"
       />
       <div className="about-text-content">
