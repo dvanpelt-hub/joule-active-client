@@ -11,6 +11,16 @@
   margin-bottom: 50px;
 }
 
+.icon-text-container img {
+  transition: 0.6s;
+  animation: ease-in;
+}
+
+.icon-text-container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 @media only screen and (min-width: 400px) {
   /* Larger mobile devices */
   .descriptions-container {
