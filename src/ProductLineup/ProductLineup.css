@@ -16,10 +16,13 @@
 #kneeSleveImg {
   height: auto;
   width: 60%;
+  animation: ease-in;
+  transition: 0.4s;
 }
 
 #kneeSleveImg:hover {
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 400px) {
