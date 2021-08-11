@@ -20,7 +20,7 @@
   z-index: 1;
 }
 
-.button-container {
+.slogan-container {
   height: 20vh;
   left: 50%;
   position: absolute;
@@ -31,7 +31,7 @@
   z-index: 3;
 }
 
-.button-container h3 {
+.slogan-container h3 {
   color: white;
   font-size: 22px;
   font-weight: 50;
@@ -59,26 +59,21 @@
   color: rgb(44, 44, 44);
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 550px) {
   /* Larger mobile screen size such as Pixel XL */
-  .button-container h3 {
-    padding-top: 300px;
+  .slogan-container h3 {
+    font-size: 28px;
+    margin-top: 10%;
+  }
+  .header-container {
+    height: 50vh;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* IPAD screen size */
-  .button-container h3 {
-    padding-top: 470px;
-    font-size: 26px;
-    padding-bottom: 16px;
-  }
-  .btn-primary {
-    font-size: 20px;
-    padding: 16px 32px;
-  }
-  .logo-container {
-    margin: 28px;
+  .slogan-container h3 {
+    font-size: 38px;
   }
 }
 
@@ -92,28 +87,21 @@
     display: flex;
   }
 
-  .button-container {
+  .slogan-container {
     top: 32%;
   }
 
-  .button-container h3 {
-    padding: 0;
+  .slogan-container h3 {
     margin-bottom: 0.8rem;
     color: white;
     font-size: 45px;
-  }
-
-  .btn-primary {
-    font-size: 14px;
-    padding: 10px 18px;
-    margin: 10px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   /*Medium desktop*/
   .header-container {
-    height: 68vh;
+    height: 80vh;
   }
 }
 
@@ -122,8 +110,11 @@
   .header-container {
     height: 90vh;
   }
-  .btn-primary {
-    padding: 15px;
+  .slogan-container {
+    top: 35%;
+  }
+  .slogan-container h3 {
+    font-size: 56px;
   }
 }
 
@@ -132,10 +123,10 @@
   .header-container {
     height: 120vh;
   }
-  .button-container {
-    top: 50%;
+  .slogan-container {
+    top: 40%;
   }
-  .button-container h3 {
-    margin-bottom: 1rem;
+  .slogan-container h3 {
+    font-size: 64px;
   }
 }

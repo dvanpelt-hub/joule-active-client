@@ -9,7 +9,7 @@ const Header = () => {
         <video autoPlay muted loop id="jouleVideo">
           <source src={jouleVideo} type="video/mp4" />
         </video>
-        <div className="button-container">
+        <div className="slogan-container">
           <h3>Get work done.</h3>
         </div>
       </div>
