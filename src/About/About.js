@@ -1,5 +1,6 @@
 import "./About.css";
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 // import aboutUs from "../images/aboutus.jpg";
 import aboutUs2 from "../images/aboutus2.jpg";
 import signatureSS from "../images/SSSIG-1.png";
@@ -18,10 +19,10 @@ const About = () => {
 
   return (
     <div className="about-container">
-      <img
+      <LazyLoadImage
+        alt="Man working out while wearing Joule products"
         id="main-image"
         src={aboutUs2}
-        alt="Man working out while wearing Joule products"
       />
       <div className="about-text-content">
         <h2>WHO WE ARE</h2>
@@ -33,7 +34,11 @@ const About = () => {
           affordable, quality, and just fresh looking gear that lets you focus
           your energy on working out rather than everything else.
         </p>
-        <img src={signatureSS} alt="Company signature" id="pri-signature" />
+        <LazyLoadImage
+          src={signatureSS}
+          alt="Company signature"
+          id="pri-signature"
+        />
       </div>
     </div>
   );
