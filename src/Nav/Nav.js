@@ -24,8 +24,12 @@ const Nav = () => {
           <img src={jouleLogo} alt="Joule Logo" className="logo" />
         </div>
         <div className="media-icon-container">
-          <FontAwesomeIcon icon={faUserFriends} className="fb-icon" />
-          <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
+          <a href="https://www.facebook.com/jouleactive/">
+            <FontAwesomeIcon icon={faUserFriends} className="fb-icon" />
+          </a>
+          <a href="https://www.facebook.com/jouleactive/">
+            <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
+          </a>
         </div>
         <ul className={selected ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">

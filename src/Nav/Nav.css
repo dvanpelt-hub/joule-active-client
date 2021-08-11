@@ -22,6 +22,11 @@
   width: 80%;
 }
 
+.media-icon-container a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-logo {
   color: rgb(255, 255, 255);
   margin-left: 1rem;
