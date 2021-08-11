@@ -92,14 +92,81 @@
   cursor: pointer;
 }
 
+@media only screen and (min-width: 400px) {
+  .media-icon-container {
+    margin-top: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .media-icon-container {
+    margin-right: 15%;
+    margin-top: 5.5%;
+  }
+  .nav-icon {
+    margin: 2.5%;
+  }
+  .nav-logo {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /* IPAD screen size */
   .topNavBar a {
     font-size: 12px;
   }
+  .media-icon-container {
+    margin-right: 10%;
+  }
+  .nav-logo {
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+  }
+  .nav-logo {
+    width: 4rem;
+  }
+  .logo {
+    width: 12rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .logo {
+    width: 12rem;
+  }
+  .media-icon-container {
+    margin-right: 0;
+    margin-left: 18rem;
+    margin-top: 3.4rem;
+    position: absolute;
+  }
+  .nav-menu {
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
+  .topNavBar a {
+    font-size: 18px;
+  }
+  .nav-item {
+    margin: 10px;
+    margin-top: 16%;
+  }
 }
 
 @media only screen and (max-width: 960px) {
+  .nav-icon {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-90%, 42%);
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.842);
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -122,16 +189,5 @@
     padding: 1.5rem;
     width: 100%;
     display: table;
-  }
-
-  .nav-icon {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-90%, 42%);
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.842);
   }
 }

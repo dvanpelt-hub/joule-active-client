@@ -98,18 +98,15 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
   /*Medium desktop*/
   .header-container {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   /*Full size desktop*/
-  .header-container {
-    height: 90vh;
-  }
   .slogan-container {
     top: 35%;
   }
