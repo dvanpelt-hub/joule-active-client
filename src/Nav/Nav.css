@@ -3,7 +3,7 @@
   display: flex;
   height: 7vh;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 10;
@@ -86,7 +86,7 @@
   padding-right: 20px;
 }
 
-.fb-icon .fb-icon:hover,
+.fb-icon:hover,
 .email-icon:hover {
   color: orange;
   cursor: pointer;
